@@ -2,8 +2,9 @@
 
 set -e 
 
-(unset GIT_DIR && nvim +PlugInstall +qal)
-#nvim +PlugInstall +qal
+sh -c "nvim +PlugInstall +qall"
+#(unset GIT_DIR && nvim +PlugInstall +qall)
+#nvim +PlugInstall +qall
 
 ######################################
 # GIT
