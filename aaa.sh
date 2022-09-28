@@ -2,8 +2,10 @@
 
 set -e 
 
-nvim +PlugInstall +qall
+(nvim +PlugInstall +qall)
 
 #################################
 # Git
 #################################
+
+ls -al
