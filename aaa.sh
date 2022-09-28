@@ -2,4 +2,6 @@
 
 set -e 
 
-nvim +PlugInstall +qal
+(unset GIT_DIR && nvim +PlugInstall +qal)
+
+ls -al
