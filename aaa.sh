@@ -2,7 +2,7 @@
 
 set -e 
 
-(nvim +PlugInstall +qall)
+nvim -E +PlugInstall +qall || true
 
 #################################
 # Git
