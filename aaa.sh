@@ -1,11 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
 set -e 
 
-(unset GPG_DIR && nvim -E +PlugInstall +qal)
-
-#################################
-# Git
-#################################
+nvim -E +PlugInstall +qal;
 
 ls -al
