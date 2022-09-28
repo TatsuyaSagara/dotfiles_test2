@@ -6,7 +6,7 @@ set -e
 #eval nvim +PlugInstall +qall
 #sh -c "nvim +PlugInstall +qall"
 #(unset GIT_DIR && nvim +PlugInstall +qall)
-nvim -R +PlugInstall +qall
+nvim --headless +PlugInstall +qall
 
 ######################################
 # GIT
