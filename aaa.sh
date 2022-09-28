@@ -2,7 +2,7 @@
 
 set -e 
 
-nvim -E +PlugInstall +qall || true
+(unset GPG_DIR && nvim -E +PlugInstall +qal)
 
 #################################
 # Git
